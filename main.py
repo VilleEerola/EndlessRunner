@@ -10,6 +10,10 @@ Clock = pygame.time.Clock()
 width = 1000
 height = 800
 
+red = (255,0,0)
+green = (0, 255, 0)
+blue = (0,0,255)
+
 display = pygame.display.set_mode((width,height))
 pygame.display.set_caption("EndlessRunner")
 
@@ -41,7 +45,7 @@ def game_loop():
 
 
 
-        message("Press Q to quit :)", (255,0,0), 0, 10)
+        message("Press Q to quit :)", red , 0, 10)
         display.blit(player,(x,y)) #Prints the character 
         pygame.display.update()
         
