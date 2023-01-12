@@ -78,7 +78,7 @@ def game_loop():
         obstacle4 = display.blit(ob1,(obstacles[4], 562))
         obstacle5 = display.blit(ob3,(obstacles[5], 572))
         obstacle6 = display.blit(ob1,(obstacles[6], 562))
-        playerhtb = pygame.Rect(x, y, 23 , 43 ) # SHOWING THE HITBOXLINE, WILL BE DELETED!!!
+        playerhtb = pygame.Rect(x, y, 23 , 43 ) 
         display.blit(player,(x,y)) #Prints the character 
         
         
